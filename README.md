@@ -1,7 +1,9 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/header-mobile.svg" />
-    <img src="./assets/header.svg" width="100%" alt="Savvani Venkata Jaswanth — Python Backend and AI Developer. Building APIs. Connecting intelligence." />
+    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="https://d2ol7oe51mr4n9.cloudfront.net/user_3Hoq2lpjON2JHUFAdzayxK8aBgs/437720d9-c6c3-4581-ad82-f955d1c6c161.png" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="https://d2ol7oe51mr4n9.cloudfront.net/user_3Hoq2lpjON2JHUFAdzayxK8aBgs/b11d5a4c-c6fb-4445-b5e8-a3f05e07518b.png" />
+    <source media="(max-width: 600px)" srcset="https://d2ol7oe51mr4n9.cloudfront.net/user_3Hoq2lpjON2JHUFAdzayxK8aBgs/f627837e-92cd-4c03-8c39-cb090644d3d1.gif" />
+    <img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3Hoq2lpjON2JHUFAdzayxK8aBgs/b6d86587-20cb-48dd-8c1b-133328aafa71.gif" width="100%" alt="Savvani Venkata Jaswanth — Python Backend and AI Developer. An animated 3D monogram with orbiting rings and floating API, AI and UI modules." />
   </picture>
 </p>
 
@@ -33,12 +35,34 @@ I'm **Savvani Venkata Jaswanth**, a developer focused on Python backends, full-s
 
 ## Selected work
 
+<a href="https://github.com/savanijaswanth20-wq/ROBO_ORDER">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/project-roboserve-mobile.svg" />
+    <img src="./assets/project-roboserve.svg" width="100%" alt="01 · RoboServe AI. Open the project repository." />
+  </picture>
+</a>
+
+<details>
+<summary>Architecture & implementation</summary>
+
 ### 01 · RoboServe AI
 **Python · FastAPI · WebSockets · Gemini integration**
 
 A conversational food-ordering project connecting a voice interface to a Python backend. Includes menu tools, session handling, cart updates, order confirmation, and kitchen order tracking, with REST endpoints alongside WebSocket communication.
 
 [Explore the code →](https://github.com/savanijaswanth20-wq/ROBO_ORDER)
+
+</details>
+
+<a href="https://github.com/savanijaswanth20-wq/SAVVORA-E-COM-">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/project-savvora-mobile.svg" />
+    <img src="./assets/project-savvora.svg" width="100%" alt="02 · SAVVORA. Open the project repository." />
+  </picture>
+</a>
+
+<details>
+<summary>Architecture & implementation</summary>
 
 ### 02 · SAVVORA
 **FastAPI · Supabase · PostgreSQL · Web storefront**
@@ -47,6 +71,18 @@ An e-commerce project covering product discovery, cart, orders, authentication, 
 
 [Explore the code →](https://github.com/savanijaswanth20-wq/SAVVORA-E-COM-)
 
+</details>
+
+<a href="https://github.com/savanijaswanth20-wq/kakatiya-vidya-niketan">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/project-school-erp-mobile.svg" />
+    <img src="./assets/project-school-erp.svg" width="100%" alt="03 · Kakatiya Vidya Niketan School ERP. Open the project repository." />
+  </picture>
+</a>
+
+<details>
+<summary>Architecture & implementation</summary>
+
 ### 03 · Kakatiya Vidya Niketan School ERP
 **React · TypeScript · Firebase · Tailwind CSS**
 
@@ -54,12 +90,26 @@ A school management application with admission forms, marks entry, results, fees
 
 [Explore the code →](https://github.com/savanijaswanth20-wq/kakatiya-vidya-niketan)
 
+</details>
+
+<a href="https://github.com/savanijaswanth20-wq/chinni_jewels">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/project-chinni-jewels-mobile.svg" />
+    <img src="./assets/project-chinni-jewels.svg" width="100%" alt="04 · Chinni Jewels. Open the project repository." />
+  </picture>
+</a>
+
+<details>
+<summary>Architecture & implementation</summary>
+
 ### 04 · Chinni Jewels
 **HTML · CSS · JavaScript · Supabase**
 
 A client storefront for a jewellery business, with a product catalog, WhatsApp ordering, checkout, and an admin interface. Includes content synchronization and Supabase service integration.
 
 [Explore the code →](https://github.com/savanijaswanth20-wq/chinni_jewels)
+
+</details>
 
 ### 05 · Interactive 3D Portfolio
 **HTML · CSS · JavaScript · Animated UI**
@@ -90,7 +140,10 @@ A personal portfolio with project case studies, scrolling interactions, ambient 
 - **PayTM Ideathon 2026** — Designed an AI-powered solution focused on business relevance.
 - **Microsoft Global Fabric Days 2026** — Explored data engineering, analytics, and cloud technologies.
 
-## GitHub activity
+<details>
+<summary><strong>GitHub activity & public stats</strong></summary>
+
+
 
 <img src="./assets/stats.svg" width="100%" alt="Public GitHub activity for savanijaswanth20-wq." />
 
@@ -100,7 +153,9 @@ A personal portfolio with project case studies, scrolling interactions, ambient 
 _Public data only. Stars exclude forked repositories. Refreshed by GitHub Actions._
 <!-- PROFILE-STATS:END -->
 
-### One contribution at a time
+</details>
+
+## One contribution at a time
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
@@ -116,3 +171,4 @@ _Public data only. Stars exclude forked repositories. Refreshed by GitHub Action
 </p>
 
 <img src="./assets/footer.svg" width="100%" alt="Build. Learn. Improve. — SVJ" />
+
