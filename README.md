@@ -95,7 +95,7 @@ A personal portfolio with project case studies, scrolling interactions, ambient 
 <img src="./assets/stats.svg" width="100%" alt="Public GitHub activity for savanijaswanth20-wq." />
 
 <!-- PROFILE-STATS:START -->
-**20 public repositories · 1 followers · 0 stars on original repositories**
+**20 public repositories · 1 follower · 0 stars on original repositories**
 
 _Public data only. Stars exclude forked repositories. Refreshed by GitHub Actions._
 <!-- PROFILE-STATS:END -->
