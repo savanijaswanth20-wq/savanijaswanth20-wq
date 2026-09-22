@@ -38,7 +38,8 @@ if(!camera)throw Error('Exported delivery camera missing');
 camera.updateProjectionMatrix();
 const mixer=new THREE.AnimationMixer(loaded.scene);
 loaded.animations.forEach(clip=>mixer.clipAction(clip).play());
-window.draw=t=>{mixer.setTime(t);scene.updateMatrixWorld(true);renderer.render(scene,camera);};
+// Stretch the original four-second animation into a calmer six-second loop.
+window.draw=t=>{mixer.setTime(t/1.5);scene.updateMatrixWorld(true);renderer.render(scene,camera);};
 window.draw(0);
 window.sceneInfo={meshes,animations:loaded.animations.length,durations:loaded.animations.map(a=>a.duration)};
 window.ready=true;
@@ -63,15 +64,15 @@ const server=http.createServer((req,res)=>{
   if(info.animations<3)throw Error('Expected multiple animation tracks');
   console.log(JSON.stringify(info));
   fs.mkdirSync('frames',{recursive:true});
-  for(let i=0;i<48;i++){
-    await page.evaluate(t=>window.draw(t),i/12);
+  for(let i=0;i<120;i++){
+    await page.evaluate(t=>window.draw(t),i/20);
     await page.screenshot({path:'frames/'+String(i).padStart(3,'0')+'.png'});
   }
   await page.evaluate(()=>window.draw(0));
   const first=await page.screenshot();
-  await page.evaluate(()=>window.draw(4));
+  await page.evaluate(()=>window.draw(6));
   const last=await page.screenshot();
-  fs.writeFileSync('loop-check.json',JSON.stringify({frames:48,fps:12,duration:4,firstFrameEqualsLoopEnd:first.equals(last),...info},null,2));
+  fs.writeFileSync('loop-check.json',JSON.stringify({frames:120,fps:20,duration:6,firstFrameEqualsLoopEnd:first.equals(last),...info},null,2));
   console.log(fs.readFileSync('loop-check.json','utf8'));
   await browser.close();server.close();
 })().catch(e=>{console.error(e);server.close();process.exit(1)});

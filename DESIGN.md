@@ -4,15 +4,15 @@ The profile uses a custom, editable 3D scene created in Higgsfield 3D Jutsu, nat
 
 ## Files
 
-- `scripts/build_scene.py`: Blender 5.2 source for the SVJ core, orbiting rings, floating API/AI/UI modules, materials, lights, animation and delivery camera. Run in Higgsfield 3D Jutsu, which provides the `artifacts` registry. This creates a four-second loop with matching poses at frames 1 and 49; exported playback uses 48 frames at 12 fps.
-- `scripts/render_glb.cjs`: portable scene rendering with Three.js 0.180.0 and Playwright. Place the exported `scene.glb` in the working directory. Install `three@0.180.0` and `playwright`, then Chromium with `npx playwright install chromium`. Run the script to create PNG frames and `loop-check.json`.
+- `scripts/build_scene.py`: Blender 5.2 source for the SVJ core, orbiting rings, floating API/AI/UI modules, materials, lights, animation and delivery camera. Run in Higgsfield 3D Jutsu, which provides the `artifacts` registry. The source scene has a four-second loop with matching poses at frames 1 and 49. Delivery stretches it to six seconds and samples 120 frames at 20 fps.
+- `scripts/render_glb.cjs`: portable scene rendering with Three.js 0.180.0 and Playwright. Place the exported `scene.glb` in the working directory. Install `three@0.180.0` and `playwright`, then Chromium with `npx playwright install chromium`. Run the script to create 120 PNG frames and `loop-check.json`. The check verifies that the poses at 0 and 6 seconds match exactly.
 - `scripts/render_banner.jsx`: native Higgsedit composition for the desktop and mobile banners. Put `core.mp4` in the working directory, then run `higgsedit build scripts/render_banner.jsx`. Montserrat is a built-in Higgsedit font. It exports both posters and MP4s.
-- `scripts/build_cards.py`: standard-library Python generator for responsive, animated project SVGs. Run `python3 scripts/build_cards.py`.
+- `scripts/build_cards.py`: standard-library Python generator for responsive project, achievement, hiring, toolkit, and footer SVGs. Run `python3 scripts/build_cards.py`.
 
 Encode the scene frames with FFmpeg:
 
 ```sh
-ffmpeg -framerate 12 -i frames/%03d.png -c:v libx264 -crf 17 -pix_fmt yuv420p core.mp4
+ffmpeg -framerate 20 -i frames/%03d.png -c:v libx264 -crf 17 -pix_fmt yuv420p core.mp4
 ```
 
 Convert each finished banner MP4 into a looping GIF:
@@ -23,8 +23,12 @@ ffmpeg -i hero.mp4 -filter_complex '[0:v]split[a][b];[a]palettegen=max_colors=16
 
 ## GitHub delivery
 
-The README uses permanent Higgsfield media URLs for the rendered GIFs and PNG posters, and repository-relative paths for the SVG artwork. Replacing the animation requires updating the four header image URLs. The `<picture>` sources select a mobile composition or a still poster when reduced motion is requested. The SVG cards also respect reduced-motion settings.
+All README artwork, GIFs, and PNG posters are hosted in this repository. The résumé button opens an email request; publishing the supplied PDF is pending explicit approval. `assets/media-manifest.json` records the four rendered media sources and SHA-256 checksums. `scripts/sync_profile_media.py` downloads a file only when the local copy does not match its checksum. The workflow commits the verified media to GitHub; profile visitors load repository assets. To replace the animation, render and confirm new media, update its manifest URLs and hashes, then let the workflow cache the new files. The `<picture>` sources select a mobile composition or a still poster when reduced motion is requested. The SVG cards also respect reduced-motion settings.
 
-The existing `Update profile` GitHub Actions workflow refreshes the contribution snake, public statistics, and profile links daily. Keep the `PROFILE-STATS` and `PROFILE-LINKS` comment markers intact when editing the README.
+The existing `Update profile` GitHub Actions workflow refreshes the contribution snake, public statistics, and profile links daily. It also verifies the cached banner files. Keep the `PROFILE-STATS` and `PROFILE-LINKS` comment markers intact when editing the README.
 
-The Blender lighting preview and the portable GLB render use different renderers, so reflections can differ. Both use the same geometry, camera, materials and animation. The scene and typography are authored in code; they are not AI-generated footage.
+The Blender lighting preview and the portable GLB render use different renderers, so reflections can differ. Both use the same geometry, camera, materials and animation. The scene and typography are authored in code. The desktop GIF is approximately 2.7 MB; the mobile GIF is approximately 3.9 MB. Both loop at 20 fps for six seconds. Still PNG alternatives are included for reduced-motion preferences.
+
+## Account configuration
+
+Repository files cannot set the account timezone, bio, location, website, or pinned repositories. The remaining values and six repository choices are prepared in `PROFILE-SETUP.md`.
