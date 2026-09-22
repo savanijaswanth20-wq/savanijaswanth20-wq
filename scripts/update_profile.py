@@ -110,7 +110,9 @@ def main():
     readme = replace_section(
         readme,
         "PROFILE-STATS",
-        f"**{public_repos:,} public repositories · {followers:,} followers · {stars:,} stars on original repositories**\n\n"
+        f"**{public_repos:,} public {'repository' if public_repos == 1 else 'repositories'} · "
+        f"{followers:,} {'follower' if followers == 1 else 'followers'} · "
+        f"{stars:,} {'star' if stars == 1 else 'stars'} on original repositories**\n\n"
         "_Public data only. Stars exclude forked repositories. Refreshed by GitHub Actions._",
     )
     stats = render_stats(owner, public_repos, followers, stars)
