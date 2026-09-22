@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://jaswanth-dimensional-portfolio.savanijaswanth20.chatgpt.site"><img src="./assets/portfolio.svg" height="36" alt="Explore my portfolio" /></a>
-  <a href="mailto:savanijaswanth20@gmail.com?subject=Resume%20request"><img src="./assets/resume.svg" height="36" alt="Request my résumé by email" /></a>
+  <a href="./assets/Jaswanth-Resume.pdf"><img src="./assets/resume.svg" height="36" alt="Read my résumé (PDF)" /></a>
   <a href="https://www.linkedin.com/in/savvani-venkata-jaswanth"><img src="./assets/linkedin.svg" height="36" alt="Connect on LinkedIn" /></a>
   <a href="mailto:savanijaswanth20@gmail.com"><img src="./assets/email.svg" height="36" alt="Email Jaswanth" /></a>
 </p>
@@ -140,7 +140,7 @@ _Public data only. Stars exclude forked repositories. Refreshed by GitHub Action
   <strong>Let's build something useful.</strong><br />
   <a href="mailto:savanijaswanth20@gmail.com">Email</a> ·
   <a href="https://www.linkedin.com/in/savvani-venkata-jaswanth">LinkedIn</a> ·
-  <a href="mailto:savanijaswanth20@gmail.com?subject=Resume%20request">Résumé</a> ·
+  <a href="./assets/Jaswanth-Resume.pdf">Résumé</a> ·
   <a href="https://jaswanth-dimensional-portfolio.savanijaswanth20.chatgpt.site">Portfolio</a>
 </p>
 

@@ -44,7 +44,7 @@ body+=tx(994,58,'SVJ',30,'#79dfff',700)
 (ASSETS/'divider.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="24" viewBox="0 0 1100 24"><defs><linearGradient id="l"><stop stop-color="#79dfff"/><stop offset=".5" stop-color="#bca1ff"/><stop offset="1" stop-color="#bce891"/></linearGradient></defs><path d="M0 12H1100" stroke="url(#l)" opacity=".45"/></svg>\n')
 
 # Keep the smaller contact button consistent with the existing contact row.
-(ASSETS/'resume.svg').write_text('''<svg xmlns="http://www.w3.org/2000/svg" width="164" height="36" viewBox="0 0 164 36" role="img" aria-labelledby="title"><title id="title">Request my résumé by email</title><rect x=".5" y=".5" width="163" height="35" rx="9" fill="#142935" stroke="#2c5465"/><path d="M17 11v11m-4-4 4 4 4-4m-9 7h10" fill="none" stroke="#79dfff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><text x="33" y="23" fill="#edf2f8" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="600">Request résumé</text></svg>\n''')
+(ASSETS/'resume.svg').write_text('''<svg xmlns="http://www.w3.org/2000/svg" width="132" height="36" viewBox="0 0 132 36" role="img" aria-labelledby="title"><title id="title">Read my résumé (PDF)</title><rect x=".5" y=".5" width="131" height="35" rx="9" fill="#142935" stroke="#2c5465"/><path d="M17 11v11m-4-4 4 4 4-4m-9 7h10" fill="none" stroke="#79dfff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><text x="33" y="23" fill="#edf2f8" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="600">Résumé PDF</text></svg>\n''')
 
 ACHIEVEMENTS=[
     ('TOP 2.8%', 'Meta PyTorch OpenEnv', 'Nationwide hackathon', '#79dfff'),
