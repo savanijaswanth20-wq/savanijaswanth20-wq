@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="610" viewBox="0 0 640 610" role="img" aria-labelledby="title">
+<title id="title">Savvani Venkata Jaswanth — Python Backend and AI Developer</title>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10182b"/><stop offset="1" stop-color="#090d1a"/></linearGradient>
+<linearGradient id="line"><stop stop-color="#69f0c2"/><stop offset=".55" stop-color="#a69aff"/><stop offset="1" stop-color="#f0c987"/></linearGradient>
+<clipPath id="typingClip"><rect class="typing" x="0" y="0" width="480" height="32"/></clipPath></defs><style>
+text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+.mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+.orbit { transform-box: fill-box; transform-origin: center; animation: orbit 24s linear infinite; }
+.reverse { animation-direction: reverse; animation-duration: 34s; }
+.glow { animation: glow 5s ease-in-out infinite; }
+.travel { stroke-dasharray: 16 84; animation: travel 8s linear infinite; }
+.float { animation: float 6s ease-in-out infinite; }
+.typing { animation: typing 10s steps(40, end) infinite; }
+.cursor { animation: cursor 1.3s steps(1) infinite; }
+@keyframes orbit { to { transform: rotate(360deg); } }
+@keyframes glow { 0%,100% { opacity: .4; } 50% { opacity: .95; } }
+@keyframes travel { to { stroke-dashoffset: -100; } }
+@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+@keyframes typing { 0%,8% { width: 0; } 45%,88% { width: 480px; } 100% { width: 0; } }
+@keyframes cursor { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+ .orbit,.reverse,.glow,.travel,.float,.typing,.cursor { animation: none !important; }
+ .typing { width: 480px; }
+ .travel { stroke-dasharray: none; }
+}
+</style>
+<rect width="640" height="610" rx="24" fill="url(#bg)"/>
+<path d="M30 1 H610" stroke="url(#line)" stroke-width="2" class="glow"/>
+<rect x="30" y="30" width="294" height="38" rx="19" fill="#132c2b" stroke="#255448"/>
+<circle cx="50" cy="49" r="4" fill="#69f0c2" class="glow"/>
+<text x="67" y="55" fill="#b9ecd9" font-size="15" letter-spacing="1.6">PYTHON / BACKEND / AI</text>
+<text x="30" y="128" fill="#b6c3d7" font-size="30">Savvani Venkata</text>
+<text x="24" y="208" fill="#f4f6fc" font-size="86" font-weight="750" letter-spacing="-4">Jaswanth.</text>
+<g transform="translate(31 239)"><g clip-path="url(#typingClip)">
+<text x="0" y="21" fill="#69f0c2" font-size="18" class="mono">Building APIs. Connecting intelligence.</text>
+</g></g>
+<g transform="translate(490,448) scale(0.72)">
+      <circle r="139" fill="none" stroke="#202b42"/>
+      <circle r="118" fill="none" stroke="#1d2940" stroke-dasharray="2 9"/>
+      <g class="orbit">
+        <ellipse rx="148" ry="75" fill="none" stroke="#7366af" stroke-width="1.5" transform="rotate(-34)"/>
+        <circle cx="122.7" cy="-82.7" r="6" fill="#a69aff"/>
+        <circle cx="-122.7" cy="82.7" r="4" fill="#a69aff"/>
+      </g>
+      <g class="orbit reverse">
+        <ellipse rx="82" ry="152" fill="none" stroke="#3b826f" stroke-width="1.5" transform="rotate(-22)"/>
+        <circle cx="-57" cy="141" r="5" fill="#69f0c2"/>
+        <circle cx="57" cy="-141" r="4" fill="#69f0c2"/>
+      </g>
+      <circle r="78" fill="#11192b" stroke="#36475e"/>
+      <circle r="66" fill="none" stroke="#69f0c2" opacity=".22" class="glow"/>
+      <text x="0" y="15" text-anchor="middle" fill="#f0f5fd" font-weight="700" font-size="44" letter-spacing="-3">SVJ</text>
+      <text x="0" y="41" text-anchor="middle" fill="#9eaac2" font-size="10" letter-spacing="3">DEVELOPER</text>
+    </g>
+<text x="30" y="357" fill="#e0e6f2" font-size="26" font-weight="600">Ideas into APIs.</text>
+<text x="30" y="395" fill="#e0e6f2" font-size="26" font-weight="600">APIs into products.</text>
+<text x="30" y="455" fill="#a7b6ca" font-size="18">FastAPI · SQL · RAG</text>
+<text x="30" y="487" fill="#a7b6ca" font-size="18">Full-stack development</text>
+<path d="M30 550 H610" stroke="#283149"/>
+<text x="30" y="585" fill="#a8b8cc" font-size="14" letter-spacing="1.4">BUILD. LEARN. IMPROVE.</text>
+</svg>

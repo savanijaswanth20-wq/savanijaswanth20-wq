@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="400" viewBox="0 0 980 400" role="img" aria-labelledby="title">
+<title id="title">Savvani Venkata Jaswanth — Python Backend and AI Developer</title>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10182b"/><stop offset="1" stop-color="#090d1a"/></linearGradient>
+<linearGradient id="line"><stop stop-color="#69f0c2"/><stop offset=".55" stop-color="#a69aff"/><stop offset="1" stop-color="#f0c987"/></linearGradient>
+<clipPath id="typingClip"><rect class="typing" x="0" y="0" width="480" height="32"/></clipPath></defs><style>
+text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+.mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+.orbit { transform-box: fill-box; transform-origin: center; animation: orbit 24s linear infinite; }
+.reverse { animation-direction: reverse; animation-duration: 34s; }
+.glow { animation: glow 5s ease-in-out infinite; }
+.travel { stroke-dasharray: 16 84; animation: travel 8s linear infinite; }
+.float { animation: float 6s ease-in-out infinite; }
+.typing { animation: typing 10s steps(40, end) infinite; }
+.cursor { animation: cursor 1.3s steps(1) infinite; }
+@keyframes orbit { to { transform: rotate(360deg); } }
+@keyframes glow { 0%,100% { opacity: .4; } 50% { opacity: .95; } }
+@keyframes travel { to { stroke-dashoffset: -100; } }
+@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+@keyframes typing { 0%,8% { width: 0; } 45%,88% { width: 480px; } 100% { width: 0; } }
+@keyframes cursor { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+ .orbit,.reverse,.glow,.travel,.float,.typing,.cursor { animation: none !important; }
+ .typing { width: 480px; }
+ .travel { stroke-dasharray: none; }
+}
+</style>
+<rect width="980" height="400" rx="24" fill="url(#bg)"/>
+<path d="M35 1 H945" stroke="url(#line)" stroke-width="2" class="glow"/>
+<path d="M590 0 V400 M650 0 V400 M710 0 V400 M770 0 V400 M830 0 V400 M890 0 V400 M950 0 V400 M580 40 H980 M580 100 H980 M580 160 H980 M580 220 H980 M580 280 H980 M580 340 H980" stroke="#28314b" opacity=".22"/>
+<rect x="40" y="35" width="223" height="29" rx="14.5" fill="#132c2b" stroke="#255448"/>
+<circle cx="56" cy="49.5" r="3.5" fill="#69f0c2" class="glow"/>
+<text x="69" y="54" fill="#b9ecd9" font-size="11" letter-spacing="1.6">PYTHON / BACKEND / AI</text>
+<text x="40" y="123" fill="#b6c3d7" font-size="25" letter-spacing=".2">Savvani Venkata</text>
+<text x="34" y="203" fill="#f4f6fc" font-size="80" font-weight="750" letter-spacing="-4">Jaswanth.</text>
+<g transform="translate(42 229)"><g clip-path="url(#typingClip)">
+<text x="0" y="21" fill="#69f0c2" font-size="17" class="mono">Building APIs. Connecting intelligence.</text>
+</g></g>
+<text x="40" y="301" fill="#a8b6ca" font-size="17">I turn business problems into working products.</text>
+<path d="M40 333 H544" stroke="#283149"/>
+<text x="40" y="365" fill="#b9c6d9" font-size="12" letter-spacing="1.4">FASTAPI</text>
+<circle cx="119" cy="360" r="2" fill="#64748b"/>
+<text x="135" y="365" fill="#b9c6d9" font-size="12" letter-spacing="1.4">SQL</text>
+<circle cx="182" cy="360" r="2" fill="#64748b"/>
+<text x="198" y="365" fill="#b9c6d9" font-size="12" letter-spacing="1.4">RAG</text>
+<circle cx="247" cy="360" r="2" fill="#64748b"/>
+<text x="263" y="365" fill="#b9c6d9" font-size="12" letter-spacing="1.4">FULL-STACK</text>
+<g transform="translate(772,199) scale(1)">
+      <circle r="139" fill="none" stroke="#202b42"/>
+      <circle r="118" fill="none" stroke="#1d2940" stroke-dasharray="2 9"/>
+      <g class="orbit">
+        <ellipse rx="148" ry="75" fill="none" stroke="#7366af" stroke-width="1.5" transform="rotate(-34)"/>
+        <circle cx="122.7" cy="-82.7" r="6" fill="#a69aff"/>
+        <circle cx="-122.7" cy="82.7" r="4" fill="#a69aff"/>
+      </g>
+      <g class="orbit reverse">
+        <ellipse rx="82" ry="152" fill="none" stroke="#3b826f" stroke-width="1.5" transform="rotate(-22)"/>
+        <circle cx="-57" cy="141" r="5" fill="#69f0c2"/>
+        <circle cx="57" cy="-141" r="4" fill="#69f0c2"/>
+      </g>
+      <circle r="78" fill="#11192b" stroke="#36475e"/>
+      <circle r="66" fill="none" stroke="#69f0c2" opacity=".22" class="glow"/>
+      <text x="0" y="15" text-anchor="middle" fill="#f0f5fd" font-weight="700" font-size="44" letter-spacing="-3">SVJ</text>
+      <text x="0" y="41" text-anchor="middle" fill="#9eaac2" font-size="10" letter-spacing="3">DEVELOPER</text>
+    </g><text x="772" y="373" fill="#76859e" text-anchor="middle" font-size="10" letter-spacing="3">IDEA → API → PRODUCT</text>
+</svg>

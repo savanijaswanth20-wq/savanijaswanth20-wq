@@ -1,268 +1,116 @@
-## Hi there 👋
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/header-mobile.svg" />
+    <img src="./assets/header.svg" width="100%" alt="Savvani Venkata Jaswanth — Python Backend and AI Developer. Building APIs. Connecting intelligence." />
+  </picture>
+</p>
 
-<!--
-**savanijaswanth20-wq/savanijaswanth20-wq** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <strong>Python Backend Developer · AI Integration · Full-Stack Products</strong><br />
+  From a business problem to a working product.
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <a href="https://jaswanth-dimensional-portfolio.savanijaswanth20.chatgpt.site"><img src="./assets/portfolio.svg" height="36" alt="Explore my portfolio" /></a>
+  <a href="https://www.linkedin.com/in/savvani-venkata-jaswanth"><img src="./assets/linkedin.svg" height="36" alt="Connect on LinkedIn" /></a>
+  <a href="mailto:savanijaswanth20@gmail.com"><img src="./assets/email.svg" height="36" alt="Email Jaswanth" /></a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-<div align="center">
+<!-- PROFILE-LINKS:START -->
+<p align="center"><a href="https://github.com/savanijaswanth20-wq">GitHub @savanijaswanth20-wq</a> · <a href="https://github.com/savanijaswanth20-wq?tab=repositories">Explore my repositories</a></p>
+<!-- PROFILE-LINKS:END -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0E27,50:141B3D,100:1E2A5E&height=220&section=header&text=Savvani%20Venkata%20Jaswanth&fontSize=42&fontColor=FFFFFF&fontAlignY=40&desc=Python%20Backend%20Engineer%20%7C%20AI%20Engineer%20%7C%20Full%20Stack%20Developer&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
+## A little about me
 
-<br/>
+I'm **Savvani Venkata Jaswanth**, a developer focused on Python backends, full-stack applications, and practical AI integration. I like understanding the problem first, building a prototype, and improving it through feedback.
 
-<a href="https://github.com/savanijaswanth20-wq">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=22&duration=3000&pause=1000&color=6EA8FE&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B+I'm+Savvani+Venkata+Jaswanth;Python+Backend+Engineer;AI+Engineer;Building+AI+Applications;Building+Scalable+Backend+Systems" alt="Typing SVG" />
-</a>
+- **Experience:** Python Backend Developer at **Algonex IT Solutions** — APIs, database integration, authentication, and product development.
+- **Education:** **B.Com (Computer Applications)**, Emeralds Degree College · 2026.
+- **Building:** Conversational AI experiences, business applications, and an AI Interview Agent.
+- **Looking for:** Junior developer and internship opportunities in **Bengaluru**.
 
-<br/><br/>
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-<img src="https://img.shields.io/badge/-Python%20Backend-0A0E27?style=for-the-badge&labelColor=0A0E27&color=141B3D" height="30"/>
-<img src="https://img.shields.io/badge/-AI%20Engineering-0A0E27?style=for-the-badge&labelColor=0A0E27&color=141B3D" height="30"/>
-<img src="https://img.shields.io/badge/-Full%20Stack-0A0E27?style=for-the-badge&labelColor=0A0E27&color=141B3D" height="30"/>
+## Selected work
 
-</div>
+### 01 · RoboServe AI
+**Python · FastAPI · WebSockets · Gemini integration**
 
-<br/>
+A conversational food-ordering project connecting a voice interface to a Python backend. Includes menu tools, session handling, cart updates, order confirmation, and kitchen order tracking, with REST endpoints alongside WebSocket communication.
 
----
+[Explore the code →](https://github.com/savanijaswanth20-wq/ROBO_ORDER)
 
-<br/>
+### 02 · SAVVORA
+**FastAPI · Supabase · PostgreSQL · Web storefront**
 
-## 🧩&nbsp; About Me
+An e-commerce project covering product discovery, cart, orders, authentication, and administration. The codebase includes Python backend modules for products, payments, inventory, and notifications, with Supabase integration.
 
-I'm a **Python Backend Engineer** and **AI Engineer** who builds fast, reliable systems — from clean REST APIs to intelligent, AI-driven applications. I care deeply about **system design**, **clean architecture**, and writing backend code that scales without breaking a sweat.
+[Explore the code →](https://github.com/savanijaswanth20-wq/SAVVORA-E-COM-)
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### 03 · Kakatiya Vidya Niketan School ERP
+**React · TypeScript · Firebase · Tailwind CSS**
 
-**🔹 What I do**
-- Design and build scalable backend systems with **Python** & **FastAPI**
-- Develop **AI-powered applications** using LLMs and RAG pipelines
-- Architect secure, well-documented **REST APIs**
-- Automate workflows to eliminate repetitive engineering work
+A school management application with admission forms, marks entry, results, fees, events, and a parent portal. Connects school workflows through reusable React components and Firebase integration.
 
-</td>
-<td width="50%" valign="top">
+[Explore the code →](https://github.com/savanijaswanth20-wq/kakatiya-vidya-niketan)
 
-**🔹 How I think**
-- System design before syntax
-- Simplicity over complexity
-- Performance is a feature, not an afterthought
-- Every project ships with purpose
+### 04 · Chinni Jewels
+**HTML · CSS · JavaScript · Supabase**
 
-</td>
-</tr>
-</table>
+A client storefront for a jewellery business, with a product catalog, WhatsApp ordering, checkout, and an admin interface. Includes content synchronization and Supabase service integration.
 
-<br/>
+[Explore the code →](https://github.com/savanijaswanth20-wq/chinni_jewels)
 
-## 🧱&nbsp; Tech Stack
+### 05 · Interactive 3D Portfolio
+**HTML · CSS · JavaScript · Animated UI**
 
-<table width="100%">
-<tr>
-<td width="20%" align="center" valign="top">
+A personal portfolio with project case studies, scrolling interactions, ambient audio controls, and a responsive interface.
 
-**Languages**
+[Explore the code →](https://github.com/savanijaswanth20-wq/portfolio_2.0) · [Visit portfolio →](https://jaswanth-dimensional-portfolio.savanijaswanth20.chatgpt.site)
 
-<img src="https://skillicons.dev/icons?i=python,js,mysql,html,css" /><br/><br/>
-Python · JavaScript<br/>SQL · HTML · CSS
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-</td>
-<td width="20%" align="center" valign="top">
+## My toolkit
 
-**Backend**
+<img src="./assets/stack.svg" width="100%" alt="Core tools: Python, FastAPI, SQL, React, Supabase, and AI integration." />
 
-<img src="https://skillicons.dev/icons?i=fastapi,flask" /><br/><br/>
-FastAPI · Flask<br/>REST API · JWT
+| Area | Technologies |
+| :--- | :--- |
+| **Backend** | Python · FastAPI · Flask · REST APIs · WebSockets |
+| **AI integration** | LLMs · RAG · LangChain · Gemini API · OpenAI API · Pinecone · Chroma |
+| **Data & authentication** | PostgreSQL · MySQL · Supabase · Firebase · RBAC · RLS |
+| **Frontend** | React · JavaScript · HTML · CSS · Tailwind CSS |
+| **Development & deployment** | Git · GitHub · Docker · Vercel · Render · Railway |
 
-</td>
-<td width="20%" align="center" valign="top">
+## Experience beyond the code
 
-**Databases**
+- **Meta PyTorch OpenEnv Hackathon** — Top 2.8% nationwide.
+- **IIT Madras E-Summit 2026** — Finalist for an AI-driven automation platform.
+- **GNOSIS 2025 National Paper Presentation** — First place for research on AI and Generative AI.
+- **PayTM Ideathon 2026** — Designed an AI-powered solution focused on business relevance.
+- **Microsoft Global Fabric Days 2026** — Explored data engineering, analytics, and cloud technologies.
 
-<img src="https://skillicons.dev/icons?i=mysql,firebase,supabase" /><br/><br/>
-MySQL · Firebase<br/>Supabase
+## GitHub activity
 
-</td>
-<td width="20%" align="center" valign="top">
+<img src="./assets/stats.svg" width="100%" alt="Public GitHub activity for savanijaswanth20-wq." />
 
-**AI / ML**
+<!-- PROFILE-STATS:START -->
+_Public statistics are being initialized by GitHub Actions._
+<!-- PROFILE-STATS:END -->
 
-<img src="https://skillicons.dev/icons?i=py" /><br/><br/>
-Gemini API · LangChain<br/>OpenAI · RAG
-
-</td>
-<td width="20%" align="center" valign="top">
-
-**Tools**
-
-<img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,postman" /><br/><br/>
-Git · GitHub · Docker<br/>Linux · VS Code · Postman
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-## 🗂️&nbsp; Featured Projects
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-<div>
-
-### 🏫 School ERP
-Full-featured Enterprise Resource Planning system for schools — student records, attendance, fee management, and admin dashboards in one platform.
-
-**Stack:** `Python` `FastAPI` `MySQL` `JWT`
-
-<a href="https://github.com/savanijaswanth20-wq"><img src="https://img.shields.io/badge/View%20Repository-141B3D?style=for-the-badge&logo=github&logoColor=6EA8FE" /></a>
-
-</div>
-</td>
-<td width="50%" valign="top">
-<div>
-
-### 💳 Payment Gateway
-Secure, developer-friendly payment processing service with transaction handling, encryption, and clean REST endpoints.
-
-**Stack:** `Python` `FastAPI` `REST API` `Security`
-
-<a href="https://github.com/savanijaswanth20-wq"><img src="https://img.shields.io/badge/View%20Repository-141B3D?style=for-the-badge&logo=github&logoColor=6EA8FE" /></a>
-
-</div>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<div>
-
-### 🤖 AI Resume Analyzer
-AI-powered tool that parses resumes and delivers intelligent, actionable feedback using LLMs and retrieval-augmented generation.
-
-**Stack:** `Python` `LangChain` `Gemini API` `RAG`
-
-<a href="https://github.com/savanijaswanth20-wq"><img src="https://img.shields.io/badge/View%20Repository-141B3D?style=for-the-badge&logo=github&logoColor=6EA8FE" /></a>
-
-</div>
-</td>
-<td width="50%" valign="top">
-<div>
-
-### 🛒 E-Commerce Platform
-End-to-end online shopping platform with product catalog, cart, auth, and order management built on a scalable backend.
-
-**Stack:** `Python` `Flask` `MySQL` `REST API`
-
-<a href="https://github.com/savanijaswanth20-wq"><img src="https://img.shields.io/badge/View%20Repository-141B3D?style=for-the-badge&logo=github&logoColor=6EA8FE" /></a>
-
-</div>
-</td>
-</tr>
-</table>
-
-<br/>
-
-## 📊&nbsp; GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=savanijaswanth20-wq&show_icons=true&theme=transparent&hide_border=true&title_color=6EA8FE&icon_color=6EA8FE&text_color=C9D1D9&bg_color=00000000" width="49%"/>
-<img src="https://streak-stats.demolab.com?user=savanijaswanth20-wq&theme=transparent&hide_border=true&ring=6EA8FE&fire=6EA8FE&currStreakLabel=6EA8FE&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=C9D1D9&background=00000000" width="49%"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=savanijaswanth20-wq&layout=compact&theme=transparent&hide_border=true&title_color=6EA8FE&text_color=C9D1D9&bg_color=00000000" width="49%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=savanijaswanth20-wq&theme=github_dark" width="49%"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=savanijaswanth20-wq&theme=react-dark&hide_border=true&bg_color=00000000&color=6EA8FE&line=6EA8FE&point=FFFFFF" width="100%"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-</div>
-
-<br/>
-
-## 🏆&nbsp; Achievements
-
-<table width="100%">
-<tr>
-<td align="center" width="25%">
-
-**🐍 Backend Developer**<br/>
-<sub>Scalable systems architect</sub>
-
-</td>
-<td align="center" width="25%">
-
-**🐍 Python Developer**<br/>
-<sub>Clean, efficient code</sub>
-
-</td>
-<td align="center" width="25%">
-
-**🤖 AI Engineer**<br/>
-<sub>LLMs & intelligent systems</sub>
-
-</td>
-<td align="center" width="25%">
-
-**📚 Continuous Learner**<br/>
-<sub>Always leveling up</sub>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-## 🎓&nbsp; Currently Learning
-
-<img src="https://img.shields.io/badge/Docker-141B3D?style=for-the-badge&logo=docker&logoColor=6EA8FE"/>
-<img src="https://img.shields.io/badge/Kubernetes-141B3D?style=for-the-badge&logo=kubernetes&logoColor=6EA8FE"/>
-<img src="https://img.shields.io/badge/AWS-141B3D?style=for-the-badge&logo=amazonaws&logoColor=6EA8FE"/>
-<img src="https://img.shields.io/badge/Microservices-141B3D?style=for-the-badge&logo=serverless&logoColor=6EA8FE"/>
-<img src="https://img.shields.io/badge/AI%20Agents-141B3D?style=for-the-badge&logo=openai&logoColor=6EA8FE"/>
-
-<br/>
-<br/>
-
-## 📮&nbsp; Let's Connect
-
-<div align="center">
-
-<a href="https://github.com/savanijaswanth20-wq"><img src="https://img.shields.io/badge/GitHub-141B3D?style=for-the-badge&logo=github&logoColor=6EA8FE" /></a>
-<a href="https://www.linkedin.com/in/savvani-venkata-jaswanth"><img src="https://img.shields.io/badge/LinkedIn-141B3D?style=for-the-badge&logo=linkedin&logoColor=6EA8FE" /></a>
-<a href="https://savvani-venkata-jaswanth.vercel.app"><img src="https://img.shields.io/badge/Portfolio-141B3D?style=for-the-badge&logo=vercel&logoColor=6EA8FE" /></a>
-<a href="mailto:savanijaswanth@gmail.com"><img src="https://img.shields.io/badge/Email-141B3D?style=for-the-badge&logo=gmail&logoColor=6EA8FE" /></a>
-<a href="https://www.instagram.com/s_jaswanth8"><img src="https://img.shields.io/badge/Instagram-141B3D?style=for-the-badge&logo=instagram&logoColor=6EA8FE" /></a>
-
-</div>
-
-<br/>
-
----
-
-<br/>
-
-<div align="center">
-
-<i>"Building software with simplicity, performance and purpose."</i>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E2A5E,50:141B3D,100:0A0E27&height=100&section=footer" width="100%"/>
+### One contribution at a time
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
+  <img src="./assets/github-snake.svg" width="100%" alt="A snake animation generated from savanijaswanth20-wq's GitHub contributions." />
+</picture>
+
+<p align="center">
+  <strong>Let's build something useful.</strong><br />
+  <a href="mailto:savanijaswanth20@gmail.com">Email</a> ·
+  <a href="https://www.linkedin.com/in/savvani-venkata-jaswanth">LinkedIn</a> ·
+  <a href="https://jaswanth-dimensional-portfolio.savanijaswanth20.chatgpt.site">Portfolio</a>
+</p>
+
+<img src="./assets/footer.svg" width="100%" alt="Build. Learn. Improve. — SVJ" />

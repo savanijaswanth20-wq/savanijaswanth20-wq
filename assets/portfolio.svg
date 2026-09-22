@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="154" height="36" viewBox="0 0 154 36" role="img" aria-labelledby="title">
+  <title id="title">Explore my portfolio</title>
+  <rect x=".5" y=".5" width="153" height="35" rx="9" fill="#11182a" stroke="#344059"/>
+  <circle cx="19" cy="18" r="3" fill="#b3a6ff"/>
+  <text x="33" y="23" fill="#edf2f8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">Portfolio ↗</text>
+</svg>

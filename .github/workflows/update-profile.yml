@@ -1,0 +1,67 @@
+name: Update profile
+
+"on":
+  workflow_dispatch:
+  schedule:
+    - cron: "23 2 * * *"
+  push:
+    paths:
+      - README.md
+      - scripts/update_profile.py
+      - .github/workflows/update-profile.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Generate contribution snake
+        id: snake
+        continue-on-error: true
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/github-snake.svg?color_snake=#6d5ce7&color_dots=#eaeef2,#d9f9ed,#9becd5,#55d7b0,#18b88d
+            assets/github-snake-dark.svg?palette=github-dark&color_snake=#a69aff&color_dots=#161b2e,#164a43,#26786a,#3fb49a,#69f0c2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update public stats and profile links
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_profile.py
+
+      - name: Save generated assets
+        env:
+          PROFILE_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/stats.svg assets/github-snake.svg assets/github-snake-dark.svg
+          if git diff --cached --quiet; then
+            echo "Profile is already up to date."
+            exit 0
+          fi
+          git commit -m "chore: refresh profile activity [skip ci]"
+          git push origin "HEAD:${PROFILE_BRANCH}"
+
+      - name: Report a snake generation problem
+        if: steps.snake.outcome == 'failure'
+        run: |
+          echo "::warning::The snake could not refresh. Stats were updated and the prior snake image is retained. Rerun this workflow to retry."
