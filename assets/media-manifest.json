@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "assets/hero.gif",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Hoq2lpjON2JHUFAdzayxK8aBgs/0c5760a4-3938-4bd1-aaeb-47452988313b.gif",
+      "sha256": "85214d8af1d1d824263a057221abe49a4ee9951b791dc5e945074cf651002b29"
+    },
+    {
+      "path": "assets/hero-mobile.gif",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Hoq2lpjON2JHUFAdzayxK8aBgs/b8c42aef-53bf-4a64-8e00-1d9f519d2d70.gif",
+      "sha256": "83ebff2686ca0993262807ddef12ae784a447c8576d49edcfa937ffaf02cbcab"
+    },
+    {
+      "path": "assets/hero.png",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Hoq2lpjON2JHUFAdzayxK8aBgs/f7996460-da00-4782-aada-7aa2f1134f69.png",
+      "sha256": "d1475e06c2c30dff6605f11afd8a117b4895328cde966930aec19c35ea02de38"
+    },
+    {
+      "path": "assets/hero-mobile.png",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Hoq2lpjON2JHUFAdzayxK8aBgs/a9b7867e-2ac8-4fe4-9dcc-7135d90e1ef2.png",
+      "sha256": "13a2e91d0b5cb6773a7680a4dbe7e52d099062ec6551395ee37273c249e2f27a"
+    }
+  ]
+}
