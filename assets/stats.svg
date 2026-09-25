@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="980" height="236" viewBox="0 0 980 236" role="img" aria-labelledby="title desc">
       <title id="title">GitHub public statistics for savanijaswanth20-wq</title>
-      <desc id="desc">20 public repositories, 1 followers, and 0 stars on owned public non-fork repositories.</desc>
+      <desc id="desc">21 public repositories, 1 followers, and 0 stars on owned public non-fork repositories.</desc>
       <style>
         text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
         .accent { stroke-dasharray: 20 80; animation: scan 6s linear infinite; }
@@ -11,7 +11,7 @@
       <text x="30" y="38" fill="#b3bed1" font-size="14" letter-spacing="1.4">@savanijaswanth20-wq / PUBLIC ACTIVITY</text>
       <g transform="translate(24,65)">
           <rect width="300" height="142" rx="16" fill="#11182a" stroke="#273148"/>
-          <text x="22" y="68" fill="#69f0c2" font-size="44" font-weight="700">20</text>
+          <text x="22" y="68" fill="#69f0c2" font-size="44" font-weight="700">21</text>
           <text x="22" y="107" fill="#b3bed1" font-size="12" letter-spacing="1">PUBLIC REPOSITORIES</text>
           <path class="accent" d="M22 126 H278" stroke="#69f0c2" stroke-width="2" pathLength="100"/>
         </g><g transform="translate(340,65)">
