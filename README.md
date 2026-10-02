@@ -129,7 +129,7 @@ A personal portfolio exploring animated interfaces, project presentation, and sc
 <img src="./assets/stats.svg" width="100%" alt="Public GitHub activity for savanijaswanth20-wq." />
 
 <!-- PROFILE-STATS:START -->
-**22 public repositories · 3 followers · 0 stars on original repositories**
+**23 public repositories · 3 followers · 0 stars on original repositories**
 
 _Public data only. Stars exclude forked repositories. Refreshed by GitHub Actions._
 <!-- PROFILE-STATS:END -->
