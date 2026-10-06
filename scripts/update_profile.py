@@ -14,6 +14,8 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import quote
 from urllib.request import Request, urlopen
 
+from build_editorial import render_dashboard
+
 ROOT = Path(__file__).resolve().parents[1]
 API = "https://api.github.com"
 
@@ -57,9 +59,9 @@ def replace_section(text, name, content):
 def render_stats(owner, public_repos, followers, stars):
     title = html.escape(f"@{owner} / PUBLIC ACTIVITY")
     metrics = [
-        (public_repos, "PUBLIC REPOSITORIES", "#69f0c2"),
-        (followers, "FOLLOWERS", "#a69aff"),
-        (stars, "STARS ON ORIGINAL REPOS", "#f0c987"),
+        (public_repos, "PUBLIC REPOSITORIES", "#ff4c68"),
+        (followers, "FOLLOWERS", "#8fc1ff"),
+        (stars, "STARS ON ORIGINAL REPOS", "#8fc1ff"),
     ]
     cards = []
     for i, (number, label, color) in enumerate(metrics):
@@ -116,8 +118,12 @@ def main():
         "_Public data only. Stars exclude forked repositories. Refreshed by GitHub Actions._",
     )
     stats = render_stats(owner, public_repos, followers, stars)
+    dashboard = render_dashboard(owner, public_repos, followers, stars)
+    dashboard_mobile = render_dashboard(owner, public_repos, followers, stars, mobile=True)
     # Network calls and marker checks must succeed before any output is changed.
     (ROOT / "assets" / "stats.svg").write_text(stats, encoding="utf-8")
+    (ROOT / "assets" / "editorial-dashboard.svg").write_text(dashboard, encoding="utf-8")
+    (ROOT / "assets" / "editorial-dashboard-mobile.svg").write_text(dashboard_mobile, encoding="utf-8")
     readme_path.write_text(readme, encoding="utf-8")
     print("Updated public activity and profile links.")
 

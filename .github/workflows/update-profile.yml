@@ -8,6 +8,9 @@ name: Update profile
     paths:
       - README.md
       - scripts/update_profile.py
+      - scripts/build_editorial.py
+      - assets/profile-avatar.jpg
+      - assets/editorial-source/**
       - scripts/sync_profile_media.py
       - assets/media-manifest.json
       - .github/workflows/update-profile.yml
@@ -42,8 +45,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/github-snake.svg?color_snake=#6d5ce7&color_dots=#eaeef2,#d9f9ed,#9becd5,#55d7b0,#18b88d
-            assets/github-snake-dark.svg?palette=github-dark&color_snake=#a69aff&color_dots=#161b2e,#164a43,#26786a,#3fb49a,#69f0c2
+            assets/github-snake.svg?color_snake=#247bff&color_dots=#eaeef2,#d9eaff,#a4ccff,#529dff,#247bff
+            assets/github-snake-dark.svg?palette=github-dark&color_snake=#8fc1ff&color_dots=#070c18,#10264a,#194c92,#247bff,#8fc1ff
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -59,6 +62,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md assets/stats.svg assets/github-snake.svg assets/github-snake-dark.svg
+          git add assets/editorial-dashboard.svg assets/editorial-dashboard-mobile.svg
           git add assets/hero.gif assets/hero-mobile.gif assets/hero.png assets/hero-mobile.png
           if git diff --cached --quiet; then
             echo "Profile is already up to date."

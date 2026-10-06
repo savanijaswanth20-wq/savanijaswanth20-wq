@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="270" viewBox="0 0 600 270" role="img" aria-labelledby="title desc">
+<title id="title">Savvora</title><desc id="desc">SAVVORA: Products, inventory, orders, returns and administration. FASTAPI / SUPABASE / POSTGRESQL / NEXT.JS. Open the linked repository.</desc>
+<defs>
+ <radialGradient id="blue-glow"><stop stop-color="#153b7f" stop-opacity=".65"/><stop offset="1" stop-color="#070c18" stop-opacity="0"/></radialGradient>
+ <radialGradient id="red-glow"><stop stop-color="#702638" stop-opacity=".35"/><stop offset="1" stop-color="#070c18" stop-opacity="0"/></radialGradient>
+ <linearGradient id="card" x2="1" y2="1"><stop stop-color="#152b49"/><stop offset="1" stop-color="#0d1728"/></linearGradient>
+ <linearGradient id="cube" x2="1" y2="1"><stop stop-color="#428dff"/><stop offset="1" stop-color="#174783"/></linearGradient>
+ <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#244365"/></pattern>
+ <clipPath id="panel"><rect x="1" y="1" width="598" height="268" rx="24"/></clipPath>
+</defs>
+<style>text{font-family:Arial,Helvetica,sans-serif}
+.mono{font-family:'Courier New',monospace}
+.float{animation:float 7s ease-in-out infinite}
+.orbit{transform-box:fill-box;transform-origin:center;animation:orbit 28s linear infinite}
+.reverse{animation-direction:reverse;animation-duration:36s}
+.pulse{animation:pulse 3.5s ease-in-out infinite}
+.signal{animation:signal 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.scan{stroke-dasharray:24 76;animation:scan 8s linear infinite}
+.swing{transform-box:fill-box;transform-origin:50% 0;animation:swing 8s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-8px)}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes pulse{50%{opacity:.45}}
+@keyframes signal{50%{transform:scaleY(.55)}}
+@keyframes scan{to{stroke-dashoffset:-100}}
+@keyframes swing{25%{transform:rotate(1deg)}75%{transform:rotate(-1deg)}}
+@media(prefers-reduced-motion:reduce){.float,.orbit,.reverse,.pulse,.signal,.scan,.swing{animation:none}.scan{stroke-dasharray:none}}
+</style>
+<g clip-path="url(#panel)">
+ <rect width="600" height="270" fill="#070c18"/>
+ <ellipse cx="474" cy="116" rx="258" ry="175" fill="url(#blue-glow)"/>
+ <ellipse cx="600" cy="270" rx="252" ry="162" fill="url(#red-glow)"/>
+ <rect width="600" height="270" fill="url(#dots)" opacity=".4"/>
+ <text x="36" y="39" font-size="13" fill="#8fc1ff" font-weight="700" class="mono" letter-spacing="1.3">02 / COMMERCE WORKFLOWS</text><g fill="#f3f6ff" transform="translate(36 116) scale(0.08200 -0.08200)" aria-label="SAVVORA"><path transform="translate(0 0)" d="M30 175V204Q30 209 33.5 212.5Q37 216 42 216H157Q162 216 165.5 212.5Q169 209 169 204V182Q169 151 185.0 132.0Q201 113 225 113Q249 113 265.0 131.0Q281 149 281 178Q281 208 261.0 229.5Q241 251 183 293Q133 329 102.0 357.0Q71 385 49.0 426.0Q27 467 27 521Q27 606 80.0 657.0Q133 708 220 708Q308 708 361.5 655.0Q415 602 415 516V492Q415 487 411.5 483.5Q408 480 403 480H288Q283 480 279.5 483.5Q276 487 276 492V519Q276 550 260.5 568.5Q245 587 220 587Q196 587 181.0 569.5Q166 552 166 521Q166 491 185.0 468.0Q204 445 260 404Q322 358 353.5 329.5Q385 301 402.5 266.5Q420 232 420 184Q420 96 366.0 44.0Q312 -8 224 -8Q166 -8 122.0 15.0Q78 38 54.0 79.5Q30 121 30 175Z"/><path transform="translate(444 0)" d="M325 11 309 107Q309 112 303 112H176Q170 112 170 107L154 11Q153 0 141 0H24Q11 0 14 13L161 689Q163 700 174 700H309Q320 700 322 689L468 13L469 9Q469 0 458 0H338Q326 0 325 11ZM194 221H284Q289 221 288 226L241 499Q240 502 238.0 502.0Q236 502 235 499L190 226Q190 221 194 221Z"/><path transform="translate(926 0)" d="M166 11 23 687 22 691Q22 700 33 700H162Q174 700 175 689L244 249Q245 245 247.0 245.0Q249 245 250 249L317 689Q318 700 330 700H455Q468 700 465 687L321 11Q319 0 308 0H179Q168 0 166 11Z"/><path transform="translate(1414 0)" d="M166 11 23 687 22 691Q22 700 33 700H162Q174 700 175 689L244 249Q245 245 247.0 245.0Q249 245 250 249L317 689Q318 700 330 700H455Q468 700 465 687L321 11Q319 0 308 0H179Q168 0 166 11Z"/><path transform="translate(1902 0)" d="M34 190V510Q34 600 89.0 654.0Q144 708 236 708Q328 708 383.5 654.0Q439 600 439 510V190Q439 100 383.5 46.0Q328 -8 236 -8Q144 -8 89.0 46.0Q34 100 34 190ZM298 184V516Q298 548 281.0 567.5Q264 587 236 587Q208 587 191.5 567.5Q175 548 175 516V184Q175 152 191.5 132.5Q208 113 236 113Q264 113 281.0 132.5Q298 152 298 184Z"/><path transform="translate(2375 0)" d="M306 10 229 286Q227 290 224 290H190Q185 290 185 285V12Q185 7 181.5 3.5Q178 0 173 0H56Q51 0 47.5 3.5Q44 7 44 12V688Q44 693 47.5 696.5Q51 700 56 700H258Q313 700 356.0 673.5Q399 647 422.5 599.0Q446 551 446 489Q446 430 423.5 385.0Q401 340 361 315Q359 314 358.0 312.5Q357 311 358 309L450 14L451 10Q451 0 440 0H320Q309 0 306 10ZM185 574V403Q185 398 190 398H235Q266 398 285.5 422.5Q305 447 305 488Q305 530 285.5 554.5Q266 579 235 579H190Q185 579 185 574Z"/><path transform="translate(2846 0)" d="M325 11 309 107Q309 112 303 112H176Q170 112 170 107L154 11Q153 0 141 0H24Q11 0 14 13L161 689Q163 700 174 700H309Q320 700 322 689L468 13L469 9Q469 0 458 0H338Q326 0 325 11ZM194 221H284Q289 221 288 226L241 499Q240 502 238.0 502.0Q236 502 235 499L190 226Q190 221 194 221Z"/></g><text x="36" y="158" font-size="24" fill="#a1b2cd" font-weight="400" >Products, inventory, orders, returns</text><text x="36" y="188" font-size="24" fill="#a1b2cd" font-weight="400" >and administration.</text><text x="36" y="229" font-size="11" fill="#a1b2cd" font-weight="700" class="mono" letter-spacing="1.3">FASTAPI / SUPABASE / POSTGRESQL / NEXT.JS</text>
+</g>
+<rect x="1" y="1" width="598" height="268" rx="24" fill="none" stroke="#243a59"/>
+</svg>

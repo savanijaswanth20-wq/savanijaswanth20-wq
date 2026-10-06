@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="205" viewBox="0 0 1200 205" role="img" aria-labelledby="title desc">
+<title id="title">School Erp</title><desc id="desc">SCHOOL ERP: Admissions, marks, results, fees and a parent portal. REACT / TYPESCRIPT / FIREBASE / TAILWIND. Open the linked repository.</desc>
+<defs>
+ <radialGradient id="blue-glow"><stop stop-color="#153b7f" stop-opacity=".65"/><stop offset="1" stop-color="#070c18" stop-opacity="0"/></radialGradient>
+ <radialGradient id="red-glow"><stop stop-color="#702638" stop-opacity=".35"/><stop offset="1" stop-color="#070c18" stop-opacity="0"/></radialGradient>
+ <linearGradient id="card" x2="1" y2="1"><stop stop-color="#152b49"/><stop offset="1" stop-color="#0d1728"/></linearGradient>
+ <linearGradient id="cube" x2="1" y2="1"><stop stop-color="#428dff"/><stop offset="1" stop-color="#174783"/></linearGradient>
+ <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#244365"/></pattern>
+ <clipPath id="panel"><rect x="1" y="1" width="1198" height="203" rx="24"/></clipPath>
+</defs>
+<style>text{font-family:Arial,Helvetica,sans-serif}
+.mono{font-family:'Courier New',monospace}
+.float{animation:float 7s ease-in-out infinite}
+.orbit{transform-box:fill-box;transform-origin:center;animation:orbit 28s linear infinite}
+.reverse{animation-direction:reverse;animation-duration:36s}
+.pulse{animation:pulse 3.5s ease-in-out infinite}
+.signal{animation:signal 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.scan{stroke-dasharray:24 76;animation:scan 8s linear infinite}
+.swing{transform-box:fill-box;transform-origin:50% 0;animation:swing 8s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-8px)}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes pulse{50%{opacity:.45}}
+@keyframes signal{50%{transform:scaleY(.55)}}
+@keyframes scan{to{stroke-dashoffset:-100}}
+@keyframes swing{25%{transform:rotate(1deg)}75%{transform:rotate(-1deg)}}
+@media(prefers-reduced-motion:reduce){.float,.orbit,.reverse,.pulse,.signal,.scan,.swing{animation:none}.scan{stroke-dasharray:none}}
+</style>
+<g clip-path="url(#panel)">
+ <rect width="1200" height="205" fill="#070c18"/>
+ <ellipse cx="948" cy="88" rx="516" ry="133" fill="url(#blue-glow)"/>
+ <ellipse cx="1200" cy="205" rx="504" ry="123" fill="url(#red-glow)"/>
+ <rect width="1200" height="205" fill="url(#dots)" opacity=".4"/>
+ <text x="36" y="39" font-size="13" fill="#8fc1ff" font-weight="700" class="mono" letter-spacing="1.3">03 / SCHOOL OPERATIONS</text><g fill="#f3f6ff" transform="translate(36 116) scale(0.08200 -0.08200)" aria-label="SCHOOL ERP"><path transform="translate(0 0)" d="M30 175V204Q30 209 33.5 212.5Q37 216 42 216H157Q162 216 165.5 212.5Q169 209 169 204V182Q169 151 185.0 132.0Q201 113 225 113Q249 113 265.0 131.0Q281 149 281 178Q281 208 261.0 229.5Q241 251 183 293Q133 329 102.0 357.0Q71 385 49.0 426.0Q27 467 27 521Q27 606 80.0 657.0Q133 708 220 708Q308 708 361.5 655.0Q415 602 415 516V492Q415 487 411.5 483.5Q408 480 403 480H288Q283 480 279.5 483.5Q276 487 276 492V519Q276 550 260.5 568.5Q245 587 220 587Q196 587 181.0 569.5Q166 552 166 521Q166 491 185.0 468.0Q204 445 260 404Q322 358 353.5 329.5Q385 301 402.5 266.5Q420 232 420 184Q420 96 366.0 44.0Q312 -8 224 -8Q166 -8 122.0 15.0Q78 38 54.0 79.5Q30 121 30 175Z"/><path transform="translate(444 0)" d="M34 189V513Q34 602 88.5 655.0Q143 708 233 708Q324 708 378.5 655.0Q433 602 433 513V502Q433 497 429.5 493.5Q426 490 421 490L304 485Q292 485 292 496V522Q292 551 276.0 569.0Q260 587 233 587Q207 587 191.0 569.0Q175 551 175 522V177Q175 148 191.0 130.5Q207 113 233 113Q260 113 276.0 130.5Q292 148 292 177V204Q292 209 295.5 212.5Q299 216 304 216L421 211Q426 211 429.5 207.5Q433 204 433 199V189Q433 99 378.0 45.5Q323 -8 233 -8Q143 -8 88.5 45.5Q34 99 34 189Z"/><path transform="translate(908 0)" d="M307 700H424Q429 700 432.5 696.5Q436 693 436 688V12Q436 7 432.5 3.5Q429 0 424 0H307Q302 0 298.5 3.5Q295 7 295 12V285Q295 290 290 290H190Q185 290 185 285V12Q185 7 181.5 3.5Q178 0 173 0H56Q51 0 47.5 3.5Q44 7 44 12V688Q44 693 47.5 696.5Q51 700 56 700H173Q178 700 181.5 696.5Q185 693 185 688V416Q185 411 190 411H290Q295 411 295 416V688Q295 693 298.5 696.5Q302 700 307 700Z"/><path transform="translate(1388 0)" d="M34 190V510Q34 600 89.0 654.0Q144 708 236 708Q328 708 383.5 654.0Q439 600 439 510V190Q439 100 383.5 46.0Q328 -8 236 -8Q144 -8 89.0 46.0Q34 100 34 190ZM298 184V516Q298 548 281.0 567.5Q264 587 236 587Q208 587 191.5 567.5Q175 548 175 516V184Q175 152 191.5 132.5Q208 113 236 113Q264 113 281.0 132.5Q298 152 298 184Z"/><path transform="translate(1861 0)" d="M34 190V510Q34 600 89.0 654.0Q144 708 236 708Q328 708 383.5 654.0Q439 600 439 510V190Q439 100 383.5 46.0Q328 -8 236 -8Q144 -8 89.0 46.0Q34 100 34 190ZM298 184V516Q298 548 281.0 567.5Q264 587 236 587Q208 587 191.5 567.5Q175 548 175 516V184Q175 152 191.5 132.5Q208 113 236 113Q264 113 281.0 132.5Q298 152 298 184Z"/><path transform="translate(2334 0)" d="M44 12V688Q44 693 47.5 696.5Q51 700 56 700H173Q178 700 181.5 696.5Q185 693 185 688V126Q185 121 190 121H400Q405 121 408.5 117.5Q412 114 412 109V12Q412 7 408.5 3.5Q405 0 400 0H56Q51 0 47.5 3.5Q44 7 44 12Z"/><path transform="translate(2960 0)" d="M399 579H190Q185 579 185 574V416Q185 411 190 411H310Q315 411 318.5 407.5Q322 404 322 399V302Q322 297 318.5 293.5Q315 290 310 290H190Q185 290 185 285V126Q185 121 190 121H399Q404 121 407.5 117.5Q411 114 411 109V12Q411 7 407.5 3.5Q404 0 399 0H56Q51 0 47.5 3.5Q44 7 44 12V688Q44 693 47.5 696.5Q51 700 56 700H399Q404 700 407.5 696.5Q411 693 411 688V591Q411 586 407.5 582.5Q404 579 399 579Z"/><path transform="translate(3398 0)" d="M306 10 229 286Q227 290 224 290H190Q185 290 185 285V12Q185 7 181.5 3.5Q178 0 173 0H56Q51 0 47.5 3.5Q44 7 44 12V688Q44 693 47.5 696.5Q51 700 56 700H258Q313 700 356.0 673.5Q399 647 422.5 599.0Q446 551 446 489Q446 430 423.5 385.0Q401 340 361 315Q359 314 358.0 312.5Q357 311 358 309L450 14L451 10Q451 0 440 0H320Q309 0 306 10ZM185 574V403Q185 398 190 398H235Q266 398 285.5 422.5Q305 447 305 488Q305 530 285.5 554.5Q266 579 235 579H190Q185 579 185 574Z"/><path transform="translate(3869 0)" d="M445 488Q445 395 395.0 339.0Q345 283 264 283H189Q184 283 184 278V12Q184 7 180.5 3.5Q177 0 172 0H55Q50 0 46.5 3.5Q43 7 43 12V689Q43 694 46.5 697.5Q50 701 55 701H257Q312 701 355.0 674.0Q398 647 421.5 598.5Q445 550 445 488ZM304 485Q304 529 284.5 554.0Q265 579 233 579H189Q184 579 184 574V398Q184 393 189 393H233Q265 393 284.5 417.5Q304 442 304 485Z"/></g><text x="36" y="155" font-size="25" fill="#a1b2cd" font-weight="400" >Admissions, marks, results, fees and a parent portal.</text><text x="36" y="183" font-size="12" fill="#a1b2cd" font-weight="700" class="mono" letter-spacing="1.3">REACT / TYPESCRIPT / FIREBASE / TAILWIND</text><path d="M1065 110h64m-21-21 21 21-21 21" fill="none" stroke="#247bff" stroke-width="3"/>
+</g>
+<rect x="1" y="1" width="1198" height="203" rx="24" fill="none" stroke="#243a59"/>
+</svg>
