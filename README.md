@@ -74,7 +74,7 @@ I'm **Savvani Venkata Jaswanth**. I turn business problems into Python APIs, ful
 </picture>
 
 <!-- PROFILE-STATS:START -->
-**23 public repositories · 3 followers · 0 stars on original repositories**
+**23 public repositories · 4 followers · 0 stars on original repositories**
 
 _Public data only. Stars exclude forked repositories. Refreshed by GitHub Actions._
 <!-- PROFILE-STATS:END -->
